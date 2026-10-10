@@ -1,0 +1,20 @@
+
+# Large raw datasets
+data/*.parquet
+data/*.csv
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+config.local.*
+secrets.*
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor files
+.vscode/
